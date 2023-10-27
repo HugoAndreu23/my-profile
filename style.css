@@ -1,0 +1,121 @@
+body {
+	background-color: #3F373C;
+	color: #424241 ;
+	font-family:Quicksland;
+	font-size: 20px;
+}
+
+h1, h2 {
+	font-family: New York Times;
+	line-height: 1.5;
+}
+
+
+h1 {
+	color: #221912;
+	font-family: New York Times;
+	font-weight: 700;
+	letter-spacing: 3.5px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+h2{
+	color: #8499B1;
+	font-family:New York Times;
+	letter-spacing:1px;
+	font-size:26px;
+	font-weight: 800;
+}
+
+a {
+	font-family: New York Times;
+	font-weight: 300;
+	font-size: 20px;
+	text-decoration: none;
+	color: #E4E4E4;
+}
+a:hover {
+	color: black;
+}
+
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+.card-white {
+	background-color: #D8CBB4;
+	padding:40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1); 
+	border-radius: 4px;
+	margin:20px 0px;
+	text-align:center; 
+}
+
+.img-circle{
+	border-radius: 50%
+}
+
+.btn-blue {
+	background-color: #8C6F58;
+	color: white;
+	padding: 7px 17px;
+	border-radius: 4px;
+
+}
+
+.list-inline {
+	list-style:none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display:inline;
+	padding: 20px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #8C6F58;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
